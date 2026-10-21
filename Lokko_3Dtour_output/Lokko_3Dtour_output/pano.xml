@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.11" apprev="18043">
+  <panorama id="node1" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="0">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="56" tilt="0" projection="4" fov="141.787"/>
+      <flyin pan="56" tilt="0" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Прихожая" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node1" description="Шоурум ЖК ЛОККО" heading="0" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="90.0/0.0/120.0" url="{node3}" id="Point01" title="Детская" pan="326.47" description="" skinid="up" tilt="0"/>
+      <hotspot target="84.0/0/120.0" url="{node2}" id="Point02" title="Санузел" pan="28.33" description="" skinid="up" tilt="0"/>
+      <hotspot target="90.0/0.0/120.0" url="{node4}" id="Point03" title="Спальня" pan="-66.21" description="" skinid="up" tilt="0"/>
+      <hotspot target="79.7/0/120.0" url="{node6}" id="Point04" title="Гостиная" pan="-18.17" description="" skinid="up" tilt="0"/>
+      <hotspot target="90.0/0.0/120.0" url="{node7}" id="Point05" title="Коридор" pan="-42.95" description="" skinid="ht_node" tilt="-0.14"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="-2">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="86" tilt="-26" projection="4" fov="141.787"/>
+      <flyin pan="86" tilt="-26" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Санузел" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node2" description="Шоурум ЖК ЛОККО" heading="0" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="121.9/0/95.0" url="{node1}" id="Point01" title="Прихожая" pan="-90" description="" skinid="ht_node" tilt="0"/>
+      <hotspot target="-39.2/0/90.0" url="{node7}" id="Point02" title="Коридор" pan="-337.22" description="" skinid="ht_node" tilt="0"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="-1">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="95.24" tilt="-23.41" projection="4" fov="141.787"/>
+      <flyin pan="95.24" tilt="-23.41" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Детская" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node3" description="Шоурум ЖК ЛОККО" heading="0" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="17.0/-2.4/110.8" url="{node4}" id="Point01" title="Спальня" pan="-5.42" description="" skinid="up" tilt="0"/>
+      <hotspot target="-76.5/0.3/103.6" url="{node7}" id="Point02" title="Коридор" pan="-70.62" description="" skinid="up" tilt="0"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="1">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="66.7" tilt="-8.27" projection="4" fov="141.787"/>
+      <flyin pan="66.7" tilt="-8.27" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Спальня" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node4" description="Шоурум ЖК ЛОККО" heading="0" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="98.8/2.4/97.4" url="{node7}" id="Point01" title="Коридор" pan="-120.52" description="" skinid="up" tilt="0"/>
+      <hotspot target="149.3/-4.5/105.3" url="{node3}" id="Point02" title="Детская" pan="-193.22" description="" skinid="ht_node" tilt="0"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="1">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="174.7" fovmode="2">
+      <start pan="5.83" tilt="-23" projection="4" fov="141.787"/>
+      <flyin pan="5.83" tilt="-23" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Ванная комната" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node5" description="Шоурум ЖК ЛОККО" heading="174.7" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="55.3/-1.2/105.4" url="{node7}" id="Point01" title="Коридор" pan="-211.52" description="" skinid="up" tilt="0"/>
+      <hotspot target="15.4/-4.8/110.8" url="{node3}" id="Point03" title="Детская" pan="-185.66" description="" skinid="ht_node" tilt="0"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="0">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="98.04" tilt="0" projection="4" fov="141.787"/>
+      <flyin pan="98.04" tilt="0" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Коридор" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node7" description="Шоурум ЖК ЛОККО" heading="0" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="66.1/-2.1/105.4" url="{node4}" id="Point01" title="Спальня" pan="-39.85" description="" skinid="ht_node" tilt="0"/>
+      <hotspot target="112.8/-1.6/120.0" url="{node3}" id="Point02" title="Детская" pan="-309.51" description="" skinid="up" tilt="-1.06"/>
+      <hotspot target="87.2/-1.1/97.4" url="{node1}" id="Point03" title="Прихожая" pan="-106.48" description="" skinid="up" tilt="0"/>
+      <hotspot target="-161.2/2.0/114.0" url="{node6}" id="Point04" title="Гостиная" pan="-262" description="" skinid="ht_node" tilt="0"/>
+      <hotspot target="2.7/-21.4/90.0" url="{node5}" id="Point05" title="Ванная комната" pan="-237.01" description="" skinid="up" tilt="0"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input leveltilesize="510" width="4000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="4000" levelbias="0.400" overlap="1" levelingroll="0">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="79.02" tilt="0" projection="4" fov="141.787"/>
+      <flyin pan="79.02" tilt="0" projection="4" fov="120"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="Май 2026" copyright="Copyright © Shardakov Dmitriy" customnodeid="" title="Гостиная" info="" longitude="56.201430" comment="" latitude="58.002408" nodeid="node6" description="Шоурум ЖК ЛОККО" heading="0" author="Shardakov Dmitriy" tags="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" wordwrap="1" borderradius="1" width="180" backgroundalpha="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" enabled="0" height="20" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot target="-90.0/0.0/120.0" url="{node7}" id="Point01" title="Коридор" pan="-6.08" description="" skinid="up" tilt="0"/>
+    </hotspots>
+    <media>
+      <sound url="media/skin_snd_legkiy-perehod-s-audio-na-titryi-39287.mp3" id="legkiy-perehod-s-audio-na-titryi-39287" mode="0" loop="-1" level="0.300" keep="1"/>
+    </media>
+    <transition blendtime="1" zoomspeed="2" zoomin="0" zoomoutpause="1" softedge="0" enabled="1" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90"/>
+    <autorotate useanimation="0" returntohorizon="3.000" delay="5.00" noderandom="0" speed="0.050" startloaded="0" enabled="1" nodedelay="0.00" nodefilter=""/>
+    <flyintransition speed="3.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" invertwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" contextfullscreen="1" rubberband="0" speedwheel="1" invertcontrol="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" hideabout="1"/>
+  </panorama>
+  <masternode>
+    <userdata datetime="" copyright="" customnodeid="" title="" info="" longitude="72.056071" comment="" latitude="41.655157" nodeid="master" description="" heading="0" author="" tags="2022-05-10 ТуркестанКазах|100_0061" source=""/>
+  </masternode>
+</tour>
